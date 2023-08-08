@@ -1,2 +1,145 @@
-# Masters
-MSc 2022/2023
+# Master's
+
+_Master's degree academic year 2022/2023_
+
+
+##### 1st Semester
+
+1. [DAA]
+2. [CP]
+3. [ESR]
+4. [MFES]
+5. [ASCN]
+6. [RAS]
+
+##### 2nd Semester
+
+1. *SI* - [AP]
+2. *SI* - [ASM]
+3. *SI* - [SA]
+4. *EC* - [AIS]
+5. *EC* - [BD]
+6. *EC* - [MD]
+
+---
+
+## DAA
+
+_Projeto prático/Pratical assignment_
+
+Realizado com:
+* [Diogo Vieira](https://github.com/DiogoVieira63) 
+* [António Fernandes](https://github.com/antoniolmf)
+
+
+---
+
+## Computação Paralela
+
+_Projeto prático/Pratical assignment_
+
+Realizado com:
+* [João Ramos](https://github.com/JoaoRamoss)
+
+---
+
+## ESR 
+_Projeto prático/Pratical assignment_
+
+Realizado com:
+* [Diogo Vieira](https://github.com/DiogoVieira63) 
+* [Eduardo Magalhães](https://github.com/edumagalhaes10)
+
+
+---
+
+## ASCN   
+_Projeto prático/Pratical assignment_
+
+Realizado com:
+* [Diogo Vieira](https://github.com/DiogoVieira63) 
+* [António Fernandes](https://github.com/antoniolmf)
+* [João Mendes](https://github.com/joaopsmendes)
+* [Mariana Marques](https://github.com/marianarmarques)
+
+---
+
+## RAS   
+_Projeto prático/Pratical assignment_
+
+Realizado com:
+* [Diogo Vieira](https://github.com/DiogoVieira63) 
+* [António Fernandes](https://github.com/antoniolmf)
+* [João Mendes](https://github.com/joaopsmendes)
+* [Mariana Marques](https://github.com/marianarmarques)
+
+
+---
+
+# Perfis de especialização / Specializations:
+
+### **Sistemas Inteligentes** / **_Inteligente Systems_**:
+
+---
+
+#### AP - Aprendizagem Profunda / *Deep Learning*
+_Projetos práticos/Pratical assignments_
+
+Realizado com:
+* [Duarte Lucas](https://github.com/DuarteAugustoRodriguesLucas)
+* [Tiago Ribeiro](https://github.com/tiagoribeiro2001)
+
+
+---
+
+#### ASM - Agentes e Sistemas Multiagentes / *Agents and Multi-Agent Systems*
+_Projeto práticos/Pratical assignments_
+
+Realizado com:
+* [Duarte Lucas](https://github.com/DuarteAugustoRodriguesLucas)
+* [Tiago Ribeiro](https://github.com/tiagoribeiro2001)
+
+---
+
+#### SA - Sensorização e Ambiente / *Sensorization and Environment*
+_Projetos práticos/Pratical assignments_
+
+Realizado com:
+* [Duarte Lucas](https://github.com/DuarteAugustoRodriguesLucas)
+* [Tiago Ribeiro](https://github.com/tiagoribeiro2001)
+
+
+---
+
+
+### **Engenharia do Conhecimento** / **_Knowledge Engineering_** 
+
+---
+
+####  Análise Inteligente em Sistemas de "Big Data" / *Intelligent Big Data Analytics*
+_Projetos práticos/Pratical assignments_
+
+Realizado com:
+* [António Fernandes](https://github.com/antoniolmf)
+* [Mário Correia](https://github.com/mariopcorreia)
+
+
+---
+
+#### Bases de Dados NoSQL/ *NoSQL Databases Administration*
+_Projetos práticos/Pratical assignments_
+
+Realizado com:
+* [António Fernandes](https://github.com/antoniolmf)
+* [Mário Correia](https://github.com/mariopcorreia)
+
+---
+
+#### Mineração de Dados / *Data Mining*
+_Projetos práticos/Pratical assignments_
+
+Realizado com:
+* [António Fernandes](https://github.com/antoniolmf)
+* [Mário Correia](https://github.com/mariopcorreia)
+
+---

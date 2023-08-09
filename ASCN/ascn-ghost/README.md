@@ -1,1 +1,0 @@
-# ascn-ghost

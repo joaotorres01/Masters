@@ -1,9 +1,0 @@
----
-# Playbook to deploy Ghost and its components
-# TO DO
-- name: Undeploy Ghost
-  hosts: localhost
-  gather_facts: false
-  roles:
-  - undeploy_ghost
-  - delete_dashboard

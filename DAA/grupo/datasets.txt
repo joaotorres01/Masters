@@ -1,0 +1,4 @@
+https://www.kaggle.com/datasets/mastmustu/income?select=train.csv
+https://www.kaggle.com/datasets/vicsuperman/prediction-of-music-genre
+https://www.kaggle.com/datasets/xmorra/lol2020esports
+https://www.kaggle.com/datasets/whenamancodes/alcohol-effects-on-study

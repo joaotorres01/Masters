@@ -1,0 +1,27 @@
+---
+all:
+ vars:
+
+  # GKE cluster variables
+  gcp_project: ascn-ghost-369311                       # ID of GCP Project
+  gcp_auth_kind: serviceaccount                        # Do not change
+  gcp_cred_file: inventory/gcloud.json   # Path to service account keys (json file downloaded from GCP)
+
+  gcp_zone: us-central1-a
+  gcp_image_type: ubuntu_containerd
+  gcp_machine_type: e2-small          # Can be changed if necessary
+  gcp_disk_size_gb: 100                # Can be changed if necessary
+  gcp_initial_node_count: 2            # Number of nodes to create. Can be changed if necessary
+
+
+  # APP variables
+  ghost_ip: <GHOST_SERVICE_IP>     # Needs to be updated
+  ghost_port: <GHOST_PORT>         # Needs to be updated
+  ghost_address: <GHOST_ADDRESS>   # Needs to be updated
+
+
+  # Additional variables
+
+  delete_data: false
+  mail_pass: "{{ vault_mail_pass }}"
+  mail_user: "{{ vault_mail_user }}"

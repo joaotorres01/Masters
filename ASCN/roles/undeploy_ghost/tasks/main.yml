@@ -1,0 +1,116 @@
+---
+
+
+
+#- name: Replace ghost-deployment.yml
+#  ansible.builtin.replace:
+#    path: ghost/ghost-deployment.yml
+#    regexp: "value: http://.*:2368"
+#    replace: 'value: <IP>'
+
+- name: Delete GCP address
+  google.cloud.gcp_compute_address:
+    name: ghost-address
+    region: us-central1
+    project: "{{ gcp_project }}"
+    auth_kind: "{{ gcp_auth_kind }}"
+    service_account_file: "{{ gcp_cred_file }}"
+    state: absent
+
+# - name: Get Mysql Pod Name
+#   ansible.builtin.shell: kubectl get pods -l app=mysql -o jsonpath='{.items[0].metadata.name}'
+#   register: mysql_pod_name
+
+# - name: Delete MySQL database
+#   ansible.builtin.shell: kubectl exec -it {{ mysql_pod_name.stdout }} -- mysql -u'ghostuser' -p'password' -e "drop database ghost;"
+#   when: delete_data
+
+
+- name: Search for all Pods labelled app=web
+  kubernetes.core.k8s_info:
+    kind: Pod
+    label_selectors:
+      - app = mysql
+  register: mysql_pod
+
+
+- name: Delete MySQL database
+  kubernetes.core.k8s_exec:
+    namespace: ghost
+    pod: "{{ mysql_pod.resources[0].metadata.name }}"
+    container: mysql
+    command: mysql -u'ghostuser' -p'password' -e "drop database ghost;"
+  when: delete_data
+
+
+
+- name: Remove MySQL Deployment
+  kubernetes.core.k8s:
+    state: absent
+    namespace: ghost
+    src: mysql/mysql-deployment.yml
+
+
+
+- name: Delete Persistent Volume Claim
+  kubernetes.core.k8s:
+    state: absent
+    namespace: ghost
+    src: mysql/mysql-pvc.yml
+
+
+- name: Delete Persistent Volume
+  kubernetes.core.k8s:
+    state: absent
+    namespace: ghost
+    src: mysql/persistent-volume.yml
+
+- name: MySQL Service
+  kubernetes.core.k8s:
+    state: absent
+    namespace: ghost
+    src: mysql/mysql-service.yml
+
+#- name: MySQL Persistent Volume Claim
+#  kubernetes.core.k8s:
+#    state: present
+#    src: mysql/mysql-pvc.yml
+
+- name: Ghost Deployment
+  kubernetes.core.k8s:
+    state: absent
+    namespace: ghost
+    src: ghost/ghost-deployment.yml
+
+
+- name: Ghost Service
+  kubernetes.core.k8s:
+    state: absent
+    namespace: ghost
+    src: ghost/ghost-service.yml
+
+- name: remove ghost files
+  ansible.builtin.file:
+    path: ghost
+    state: absent
+
+- name: Get a list of all service objects
+  kubernetes.core.k8s_info:
+    api_version: v1
+    kind: Service
+    namespace: ghost
+  register: list
+  delay: 10
+  retries: 10
+  until: list.resources == []
+
+- name: Debug list
+  ansible.builtin.debug:
+    msg: "{{ list}}"
+
+
+
+
+
+
+

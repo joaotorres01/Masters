@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GymBox Semáforo</string>
+    <string name="horario">Horário: \n 08:30h - 22:00h segunda a sexta-feira \n 09:00h - 18:00h sábado \nFechado aos domingos</string>
+</resources>

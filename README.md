@@ -78,7 +78,7 @@ Realizado com:
 
 # Perfis de especialização / Specializations:
 
-### **Sistemas Inteligentes** / **_Inteligente Systems_**:
+### **Sistemas Inteligentes** / **_Intelligent Systems_**:
 
 ---
 

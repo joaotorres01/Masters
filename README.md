@@ -14,12 +14,12 @@ _Master's degree academic year 2022/2023_
 
 ##### 2nd Semester
 
-1. *Intelligent Systems* - [AP](https://github.com/joaotorres01/Masters/tree/main/AP)
-2. *Intelligent Systems* - [ASM](https://github.com/joaotorres01/Masters/tree/main/ASM)
-3. *Intelligent Systems* - [SA](https://github.com/joaotorres01/Masters/tree/main/SA)
-4. *Knowledge Engineering* - [AIS]
-5. *Knowledge Engineering* - [BD]
-6. *Knowledge Engineering* - [MD]
+1. *Intelligent Systems* - [AP](https://github.com/joaotorres01/Masters/tree/main/AP) (*Deep Learning*)
+2. *Intelligent Systems* - [ASM](https://github.com/joaotorres01/Masters/tree/main/ASM) (*Agents and Multi-Agent Systems*)
+3. *Intelligent Systems* - [SA](https://github.com/joaotorres01/Masters/tree/main/SA) (*Sensorization and Environment*)
+4. *Knowledge Engineering* - [AIS](https://github.com/joaotorres01/Masters/tree/main/AIS) (*Intelligent Big Data Analytics*)
+5. *Knowledge Engineering* - [BD](https://github.com/joaotorres01/Masters/tree/main/BD) (*NoSQL Databases Administration*)
+6. *Knowledge Engineering* - [MD](https://github.com/joaotorres01/Masters/tree/main/MD) (*Data Mining*)
 
 ---
 

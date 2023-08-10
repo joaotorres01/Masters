@@ -14,9 +14,9 @@ _Master's degree academic year 2022/2023_
 
 ##### 2nd Semester
 
-1. *SI* - [AP]
-2. *SI* - [ASM]
-3. *SI* - [SA]
+1. *SI* - [AP](https://github.com/joaotorres01/Masters/tree/main/AP)
+2. *SI* - [ASM](https://github.com/joaotorres01/Masters/tree/main/ASM)
+3. *SI* - [SA](https://github.com/joaotorres01/Masters/tree/main/SA)
 4. *EC* - [AIS]
 5. *EC* - [BD]
 6. *EC* - [MD]

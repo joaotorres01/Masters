@@ -5,12 +5,12 @@ _Master's degree academic year 2022/2023_
 
 ##### 1st Semester
 
-1. [DAA](https://github.com/joaotorres01/Masters/tree/main/DAA)
-2. [CP](https://github.com/joaotorres01/Masters/tree/main/CP)
-3. [ESR](https://github.com/joaotorres01/Masters/tree/main/ESR)
-4. [MFES]
-5. [ASCN](https://github.com/joaotorres01/Masters/tree/main/ASCN)
-6. [RAS](https://github.com/joaotorres01/Masters/tree/main/RAS)
+1. [DAA](https://github.com/joaotorres01/Masters/tree/main/DAA) (*Data and Machine Learning*)
+2. [CP](https://github.com/joaotorres01/Masters/tree/main/CP) (*Parallel Computing*)
+3. [ESR](https://github.com/joaotorres01/Masters/tree/main/ESR) (*Network Services Engineering*)
+4. [MFES] (*Formal Methods in Software Engineering*)
+5. [ASCN](https://github.com/joaotorres01/Masters/tree/main/ASCN) (*Cloud Computing Applications and Services*)
+6. [RAS](https://github.com/joaotorres01/Masters/tree/main/RAS) (*Software Requirements and Architectures*)
 
 ##### 2nd Semester
 
